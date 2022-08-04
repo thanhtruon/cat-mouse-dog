@@ -8,3 +8,9 @@ function thao(){
 function thaoyeu(){
 	//body's beautiful 
 }
+function truongtran() {
+	// body...
+	//good men 
+	//tich cuc 
+	//bilioner 
+}
