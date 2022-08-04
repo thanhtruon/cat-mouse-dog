@@ -14,3 +14,6 @@ function truongtran() {
 	//tich cuc 
 	//bilioner 
 }
+cat.prototype.eat = function(mouse){
+	this.stomach.push(mouse);
+}
