@@ -4,7 +4,6 @@ function cat() {
 module.exports = mouse;
 function thao(){
 	this.name = thao;
-<<<<<<< HEAD
 }
 function thaoyeu(){
 	//body's beautiful 
