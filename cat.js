@@ -13,7 +13,10 @@ function truongtran() {
 	//good men 
 	//tich cuc 
 	//bilioner 
+	// this is tagin
+	//
 }
 cat.prototype.eat = function(mouse){
 	this.stomach.push(mouse);
 }
+
