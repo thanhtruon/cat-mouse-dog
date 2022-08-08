@@ -12,3 +12,7 @@ function thaoyeu(){
 	// qua ok 
 	
 }
+function bow(){
+	this.name = quang;
+	this.exports = cat;
+}
