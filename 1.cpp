@@ -1,18 +1,21 @@
-#include <conio.h>
-#include <stdio.h>
- 
-int a = 0; // Bien Global a
+#include "iostream"
+
+using namespace std; 
+
+int a = 0; // Biens Global a
  
 void Display();
+void callStaticV() {
+    static int bienA = 1000;
+    bienA++;
+    cout << "bienA: " << bienA;
+}
  
 int main()
 {
-    Display();
-    printf("\na = %d", a);
-    getch();
-}
-void Display()
-{
-    for(a = 0; a < 3; a++)
-        printf("\na = %d", a);
+    for(int j = 0; j < 5; j++){
+        callStaticV();
+        cout << endl;
+    }
+
 }
